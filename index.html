@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive online shopping website with Home, Products, Contact, and About pages.">
+    <meta name="keywords" content="Shopping, Online Store, Products, Home, Contact, About">
+    <meta name="author" content="Your Company Name">
+    <title>Responsive Online Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo" aria-label="Homepage">ShopLogo</a>
+            <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="#" aria-label="Go to Home Page">Home</a></li>
+                <li><a href="#products" aria-label="View Products">Products</a></li>
+                <li><a href="#about" aria-label="Learn About Us">About</a></li>
+                <li><a href="#contact" aria-label="Contact Us">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to Our Shop</h1>
+            <p>Your one-stop destination for quality products and unbeatable prices!</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </section>
+        <section id="products" class="product-grid">
+            <h2 class="section-title">Our Products</h2>
+            <article class="product-card">
+                <img src="/cellphone.png"width="100px"height="200px" alt="Product 1">
+                <h3>Product 1</h3>
+                <p class="price">$19.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+            <article class="product-card">
+                <img src="/laptop.jpg"width="100px"height="200px" alt="Product 2">
+                <h3>Product 2</h3>
+                <p class="price">$29.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+            <article class="product-card">
+                <img src="/appliances.jpg" width="100px"height="200px"alt="Product 3">
+                <h3>Product 3</h3>
+                <p class="price">$39.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </article>
+        </section>
+        <section id="about" class="about-section">
+            <h2>About Us</h2>
+            <p>We are committed to providing high-quality products and exceptional customer service. Our goal is to make your shopping experience enjoyable and hassle-free.</p>
+        </section>
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, feel free to reach out to us.</p>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Online Shopping. All Rights Reserved.</p>
+        <p><a href="#" aria-label="Privacy Policy">Privacy Policy</a> | <a href="#" aria-label="Terms of Service">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
